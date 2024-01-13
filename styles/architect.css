@@ -18,6 +18,11 @@
     cursor: pointer;
     margin-bottom: 32px;
 }
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
 
 header{
     background-color: rgba(255, 144, 14, 0.10);
@@ -28,11 +33,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
-}
+
 nav > ul{
     display: flex;
 }
@@ -57,6 +58,7 @@ nav li a{
     font-weight: 700;
     color: #131313;
 }
+
 
 .banner img{
     width: 100%;
@@ -90,6 +92,33 @@ main{
 .text-title .bambo-class{
     color: #FF900E;
     font-weight: 700;
+}
+
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+
+.facts-card-container .card-stars{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.facts-card-container .card-title{
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 5px;
 }
 
 
